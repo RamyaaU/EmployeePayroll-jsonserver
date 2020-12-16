@@ -1,7 +1,8 @@
-//event listener on salary range
-const salary=document.querySelector('#salary');
-const output=document.querySelector('.salary-output');
-output.textContent=salary.value;
-salary.addEventListener('input',function(){
-    output.textContent=salary.value;
+//event listener on salary
+const salary = document.querySelector('#salary');
+const output = document.querySelector('.salary—output');
+output.textContent = salary.value;
+salary.addEventListener('input', function() 
+{
+    output.textContent = salary.value; 
 });
