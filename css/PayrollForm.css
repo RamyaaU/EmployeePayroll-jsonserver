@@ -1,93 +1,118 @@
-/*UC1*/
 body{
-    margin: 0;
+    margin:0;
     height: 100%;
 }
-.header{
-    padding: 15px 0;
+.header
+{
+    padding:15px 0;
     background-color: #ffffff;
 }
-.header-content{
+.header-content
+{
     display: flex;
-    flex-direction: row;
     justify-content: center;
-    align-items: center;
     border: 0px solid green;
 }
-.logo-content{
+.logo-content
+{
     display: flex;
-    flex-direction: row;
     align-items: center;
     border: 0px solid green;
-    width: 80%;
+    width:80%;
 }
-.logo-content-img{
-    border: solid 0px #42515f;
+img
+{
+    width:4em;
 }
-img{
-    height: 60px;
-    width: 60px;
+.logo-content-img
+{
+    border: 1px solid #42515f;
 }
-.emp-text{
-    font: normal normal bold 20px/25px Montserrat;
+.emp-text
+{
+    font:normal normal bold 20px/25px Montserrat;
     font-family: "Montserrat", sans-serif;
     letter-spacing: 0px;
     color: #82a70c;
     text-transform: capitalize;
 }
-.emp-payroll{color: #42515f;}
-*{box-sizing: border-box ;}
-
-/* UC2 */
-.form-content{
-    min-height: calc(100%-80px);
-    background-color: #f7f7f7;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border: 0px solid green;
+.emp-payroll
+{
+    color: #42515f;
 }
-.form{
-    width: 65%;
+/*UC 2*/
+.form-content
+{
+    min-height:calc(100%-80px);
+    background-color:#f7f7f7;
+    display:flex;
+    justify-content: center;
+}
+.form
+{
+    width:65%;
     padding: 44px 60px;
-    background: #ffffff 0% 0% no-repeat padding-box;
-    box-shadow: 0px 3px 6px #000029;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
     border: 1px solid #f5f5f5;
     border-radius: 8px;
-    opacity: 1;
+    box-shadow: 0px 3px 6px #00000029;
+    opacity: 100%;
 }
-.form-head{
-    font: normal normal 24px/37px Roboto;
+.form-head
+{
+    font:normal normal bold 20px/37px Roboto;
     letter-spacing: 0px;
-    color: #42515f;
+    color:#42515f;
     text-transform: capitalize;
     opacity: 1;
     padding-bottom: 20px;
 }
-.row-content{
-    display: flex;
-    flex-direction: row;
-    margin-bottom: 10px;
-    align-items: center;
-    border: 0px solid green;
+.row-content 
+{
+    display: flex; 
+    margin-bottom: 10px; 
+    align-items: center; 
+    border: Opx solid green; 
 }
-.label{
-    min-width: 140px;
+.label 
+{
+    min-width: 140px; 
 }
-label{
-    padding:  12px 12px 12px 0;
-    display: inline-block;
+label 
+{
+    padding: 12px 12px 12px 0;
+    display: inline-block; 
 }
-.text{
-    font-size: 16px;
-    color: #42515f;
-    opacity: 1;
-    font-family: Roboto;
+.text
+{
+    font-size: 16px; 
+    color: #42515f; 
+    opacity: 1; 
+    font-family: Roboto; 
 }
-.input{
-    width: 100%;
-    padding: 12px;
+.input 
+{
+    width: 100%; 
+    padding: 12px; 
     border: 1px solid #ccc;
-    border-radius:  4px;
-    resize: vertical;
+    border-radius: 4px; 
+    resize: vertical; 
+}
+/* UC 3 */
+.profile-radio-content 
+{
+    display: flex; 
+    flex-direction: row; 
+} 
+.profile-radio-content > label 
+{
+    display: flex; 
+    flex-direction: row; 
+    align-items: center;
+} 
+.profile 
+{
+    width: 40px; 
+    border-radius: 50%; 
+    margin-left: 12px;
 }
